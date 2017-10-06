@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AutoDeployDb-Web.config Connection String" description="AutoDeployDb Connection String used in web.config by the application to access the database." defaultValue="Data Source=(local);Initial&#xD;&#xA;    Catalog=AutoDeploy;User ID=Ken;Password=Ken" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Kenan\\source\\repos\\Web\\Web\\obj\\AutoDeploy\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AutoDeployDb']/@connectionString" />
+  </parameter>
+</parameters>
